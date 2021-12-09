@@ -1,13 +1,242 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="">
+	<title>Porsche Romania</title>
+
+	<!-- Bootstrap core CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+
+	<style>
+		.bd-placeholder-img {
+			font-size: 1.125rem;
+			text-anchor: middle;
+			-webkit-user-select: none;
+			-moz-user-select: none;
+			user-select: none;
+		}
+
+		@media (min-width: 768px) {
+			.bd-placeholder-img-lg {
+				font-size: 3.5rem;
+			}
+		}
+	</style>
+
+
+	<!-- Custom styles for this template -->
+	<link href="product.css" rel="stylesheet">
 </head>
+
 <body>
-    <h1>Test 12345</h1>
-    <h2>Test 2</h2>
+
+	<header class="site-header sticky-top py-1">
+		<nav class="container d-flex flex-column flex-md-row justify-content-between">
+			<a class="py-2" href="index.html">
+				<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor"
+					stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mx-auto" role="img"
+					viewBox="0 0 24 24">
+					<title>Porsche Romania</title>
+					<circle cx="12" cy="12" r="10" />
+					<path
+						d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94" />
+				</svg>
+			</a>
+			<a class="py-2 d-none d-md-inline-block" href="index.html">Porsche Goes E-lectric</a>
+			<a class="py-2 d-none d-md-inline-block" href="discover-e-porsche.html">E-Porsche Exclusive</a>
+			<a class="py-2 d-none d-md-inline-block" href="#">Assistance</a>
+		</nav>
+	</header>
+
+	<main>
+		<div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+			<div class="bg-dark me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+				<div class="my-3 py-3">
+					<h2 class="display-5">Porsche Goes E-lectric</h2>
+					<p class="lead">Our mission is to electrify the future.
+						We are ready to take this step with you.
+						Find out why our electric cars are the solution you are looking for
+					</p>
+					<a href="#" class="btn btn-primary">
+						More details
+					</a>
+				</div>
+			</div>
+			<div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+				<div class="my-3 p-3">
+					<h2 class="display-5">Club E Porsche</h2>
+					<p class="lead">Do you have a Volkswagen, Audi, SEAT, Skoda or Cupra electric car? Or do you want
+						one?
+						Join E-Porsche Exclusive - the club for electric car enthusiasts and get all the benefits
+					</p>
+					<a href="#" class="btn btn-primary">
+						More details
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+			<div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+				<div class="my-3 p-3">
+					<img src="images/Picture 1.2.png">
+				</div>
+			</div>
+			<div class="bg-primary me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+				<div class="my-3 py-3">
+					<h2 class="display-5">Our promises</h2>
+				</div>
+				<div class="bg-light shadow-sm mx-auto"
+					style="width: 80%; height: 200px; border-radius: 21px 21px 0 0; color: #000; padding: 20px;">
+					<p class="lead">Here at Porsche, We have integrated solutions, complete packages, an extensive
+						partner network
+						and know how</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+			<div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+				<div class="my-3 p-3">
+					<img src="images/Picture1.3.png">
+				</div>
+				<!-- <div class="bg-body shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;"></div> -->
+			</div>
+			<div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden" id="perfect-match">
+				<div class="my-3 py-3">
+					<h2 class="display-5">Find your car</h2>
+					<p class="lead">Finding your perfect match – never too easy, but we have a perfect fit for every
+						need</p>
+				</div>
+				<div class="bg-body shadow-sm mx-auto"
+					style="width: 80%; height: 300px; border-radius: 21px 21px 0 0; color: #000; padding: 50px 20px 20px;">
+					<div id="finder_start">
+						<p class="lead">Take a quick survey to find your perfect match</p>
+						<a href="#" class="btn btn-primary start">
+							Take quiz
+						</a>
+					</div>
+					<div id="finder_step_1" class="d-none">
+						<p class="lead">What do you need?</p>
+						<a href="#" class="btn btn-primary goToStep2">
+							A car for you
+						</a>
+						<a href="#" class="btn btn-primary goToStep2">
+							A car for your business
+						</a>
+					</div>
+					<div id="finder_step_2" class="d-none">
+						<p class="lead">How many kilometers you drive each year</p>
+						<a href="#" class="btn btn-primary goToStep3">
+							&lt 15.000km </a>
+						<a href="#" class="btn btn-primary goToStep3">
+							&gt 15.000km
+						</a>
+					</div>
+					<div id="finder_step_3" class="d-none">
+						<p class="lead">How many kilometers you drive each day</p>
+						<a href="#" class="btn btn-primary goToStep4">
+							&lt 50km </a>
+						<a href="#" class="btn btn-primary goToStep4">
+							&gt 50km
+						</a>
+					</div>
+					<div id="finder_step_4" class="d-none">
+						<p class="lead">How many passengers?</p>
+						<a href="#" class="btn btn-primary goToStep5">
+							2
+						</a>
+						<a href="#" class="btn btn-primary goToStep5">
+							4
+						</a>
+					</div>
+					<div id="finder_step_5" class="d-none">
+						<p class="lead">Will you drive long trips – maybe vacations – with more than 400 km?</p>
+						<a href="perfect-match.html" class="btn btn-primary">
+							No
+						</a>
+						<a href="perfect-match.html" class="btn btn-primary">
+							Yes
+						</a>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+			<div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+				<div class="my-3 p-3">
+					<h2 class="display-5">Another headline</h2>
+					<p class="lead">And an even wittier subheading.</p>
+				</div>
+				<div class="bg-body shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+				</div>
+			</div>
+			<div class="bg-light me-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center overflow-hidden">
+				<div class="my-3 py-3">
+					<h2 class="display-5">Another headline</h2>
+					<p class="lead">And an even wittier subheading.</p>
+				</div>
+				<div class="bg-body shadow-sm mx-auto" style="width: 80%; height: 300px; border-radius: 21px 21px 0 0;">
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<footer class="container py-5">
+        <div class="row">
+            <div class="col-12 col-md">
+                <p>Porsche Romania</p>
+                <small class="d-block mb-3 text-muted">&copy; 2021</small>
+            </div>
+        </div>
+    </footer>
+
+
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+		integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<script>
+		$(document).ready(function () {
+			console.log("ready!");
+		});
+
+		$(document).on("click", "a.start", function (event) {
+			event.preventDefault();
+			$('#finder_start').addClass('d-none');
+			$('#finder_step_1').removeClass('d-none');
+		});
+
+		$(document).on("click", "a.goToStep2", function (event) {
+			event.preventDefault();
+			$('#finder_step_1').addClass('d-none');
+			$('#finder_step_2').removeClass('d-none');
+		});
+
+		$(document).on("click", "a.goToStep3", function (event) {
+			event.preventDefault();
+			$('#finder_step_2').addClass('d-none');
+			$('#finder_step_3').removeClass('d-none');
+		});
+
+		$(document).on("click", "a.goToStep4", function (event) {
+			event.preventDefault();
+			$('#finder_step_3').addClass('d-none');
+			$('#finder_step_4').removeClass('d-none');
+		});
+
+		$(document).on("click", "a.goToStep5", function (event) {
+			event.preventDefault();
+			$('#finder_step_4').addClass('d-none');
+			$('#finder_step_5').removeClass('d-none');
+		});
+	</script>
+
+
 </body>
+
 </html>
